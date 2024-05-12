@@ -1,5 +1,5 @@
 salt://step2/script/add-rpm.sh:
   cmd.script
 
-sudo dnf upgrade --refresh:
+sudo dnf -y upgrade --refresh:
   cmd.run
