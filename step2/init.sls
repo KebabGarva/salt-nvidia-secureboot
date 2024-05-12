@@ -3,4 +3,4 @@ salt://step2/script/add-rpm.sh:
 
 update_pkg:
   pkg.uptodate:
-    - refresh : True
+    - refresh: True
