@@ -6,7 +6,7 @@ signing-modules:
       - mokutil
       - openssl
 
-sudo kmodgenca -a -f:
+sudo kmodgenca -a:
   cmd.run
 
 printf '1234wohoo\n1234wohoo\n' | sudo mokutil --import /etc/pki/akmods/certs/public_key.der:
