@@ -1,5 +1,9 @@
+# Check if secureboot is on
+
 mokutil --sb-state:
   cmd.run
+
+# Removes any Nvidia packages that could conflict
 
 remove-nvidia:
   pkg.removed:
