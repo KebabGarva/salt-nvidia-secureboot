@@ -3,7 +3,7 @@
 mokutil --sb-state:
   cmd.run
 
-# Removes any Nvidia packages that could conflict
+# Removes any Nvidia packages that could conflict with install
 
 remove-nvidia:
   pkg.removed:
