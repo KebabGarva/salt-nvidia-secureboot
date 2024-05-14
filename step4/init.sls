@@ -1,3 +1,5 @@
+# Installs Nvidia packages. This will take a while
+
 nvidia-install:
   pkg.installed:
     - pkgs:
