@@ -7,4 +7,4 @@ salt://step2/script/add-rpm.sh:
 
 update_pkg:
   pkg.uptodate:
-    - refresh: True #This will take in account the new added repos
+    - refresh: True # This will take in account the new added repos
