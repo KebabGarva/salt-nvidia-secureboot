@@ -2,7 +2,7 @@
 
 ## List of contents and short introduction
 
-- **[How to install salt-minion and copy the module to make the commands work](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#how-to-install-salt-minion-and-copy-the-module-to-make-the-commands-work)**
+- **[How to install salt-minion and copy the module to make the commands work](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#how-to-install-salt-minion-and-copy-the-module-to-make-the-commands-work)**
   
   - **[Step 1: Install the salt-minion](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-1-install-the-salt-minion)**
     
