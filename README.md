@@ -1,4 +1,4 @@
-# Salt module to make it easy for Linux beginners to setup Fedora 40 with working Nvidia drivers + SecureBoot on _by Saku Laitinen_
+# Salt module to make it easy for Linux beginners to setup Fedora 40 with working Nvidia drivers + SecureBoot ✅
 
 ## List of contents and short introduction
 
