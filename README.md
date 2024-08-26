@@ -6,30 +6,30 @@
   
   - **[Step 1: Install the salt-minion](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#step-1-install-the-salt-minion)**
     
-  - **[Step 2: Make the states work](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-2-make-the-states-work)**
+  - **[Step 2: Make the states work](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-2-make-the-states-work)**
     
-  - **[Step 3: Test if the module works](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-3-test-if-the-module-works)**
+  - **[Step 3: Test if the module works](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-3-test-if-the-module-works)**
 
 
-- **[How to use the module step-by-step](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#how-to-use-the-module-step-by-step)**
+- **[How to use the module step-by-step](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#how-to-use-the-module-step-by-step)**
 
-  - **[Step 1: Initial Setup](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-1)**
+  - **[Step 1: Initial Setup](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-1)**
     
-  - **[Step 2: Adding repos and reboot](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-2)**
+  - **[Step 2: Adding repos and reboot](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-2)**
     
-  - **[Step 3: Generating and importing key](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-3)**
+  - **[Step 3: Generating and importing key](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-3)**
     
-  - **[Step 4: Installing Nvidia drivers](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-4)**
+  - **[Step 4: Installing Nvidia drivers](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-4)**
     
-  - **[Step 5: Check that the built modules run kernel & boot image status](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-5)**
+  - **[Step 5: Check that the built modules run kernel & boot image status](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-5)**
     
-  - **[(OPTIONAL) Step 6: Install user-experience enhancing programs](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-6)**
+  - **[(OPTIONAL) Step 6: Install user-experience enhancing programs](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#step-6)**
 
-- **[Quick summary to what the module actually does](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#quick-summary-to-what-the-module-actually-does)**
+- **[Quick summary to what the module actually does](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#quick-summary-to-what-the-module-actually-does)**
 
-- **[Why Fedora 40 and not Nobara](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#why-fedora-40-and-not-nobara)**
+- **[Why Fedora 40 and not Nobara](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#why-fedora-40-and-not-nobara)**
 
-- **[Testing the module](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#testing-the-module)**
+- **[Testing the module](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/README.md#testing-the-module)**
 
 This is a module that is heavily inspired by roworu's guide to install Nvidia drivers that work with SecureBoot on. If you want to star this module, please show some love for them by [starring their guide](https://github.com/roworu/nvidia-fedora-secureboot)!
 
