@@ -202,6 +202,12 @@ If you want to install CUDA support to your CUDA-compatible GPU, copy-paste the 
 sudo dnf -y install xorg-x11-drv-nvidia-cuda
 ```
 
+**NOTE: Check if xwayland is installed, because xorg will not work as it's intended in the future**
+
+```
+sudo dnf -y install xorg-x11-server-Xwayland
+```
+
 **NOW WAIT!!** The modules take some time to load. I recommend waiting at least 5 minutes and 10 minutes is recommended. You can check if the process is done by checking if terminal returns the driver version. If it prints something else, **HOLD STILL! THE MODULES ARE STILL BUILDING!**
 
 It's good if it prints something like this:
@@ -230,8 +236,6 @@ After this is done, reboot again and you can enjoy your new working drivers!
 sudo systemctl reboot
 ```
 If you have optimus laptop (district and dynamic graphics) remember to enable district graphics in the UEFI.
-
-Remember to select "Gnome on Xorg", because Wayland doesn't simply work as intended with Nvidia GPU's. 
 
 If you want to make sure if your setup worked, type the command below:
 
