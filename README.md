@@ -6,7 +6,7 @@
   
   - **[Step 1: Install the salt-minion](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#step-1-install-the-salt-minion)**
     
-  - **[Step 2: Make the states work](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md)**
+  - **[Step 2: Make the states work](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#step-2-install-the-module)**
     
   - **[Step 3: Test if the module works](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#step-3-test-if-the-module-works)**
 
