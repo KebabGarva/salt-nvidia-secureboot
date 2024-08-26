@@ -4,32 +4,32 @@
 
 - **[How to install salt-minion and copy the module to make the commands work](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#how-to-install-salt-minion-and-copy-the-module-to-make-the-commands-work)**
   
-  - **[Step 1: Install the salt-minion](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-1-install-the-salt-minion)**
+  - **[Step 1: Install the salt-minion](https://github.com/KebabGarva/salt-nvidia-secureboot/blob/main/README.md#step-1-install-the-salt-minion)**
     
-  - **[Step 2: Make the states work](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-2-make-the-states-work)**
+  - **[Step 2: Make the states work](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-2-make-the-states-work)**
     
-  - **[Step 3: Test if the module works](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-3-test-if-the-module-works)**
+  - **[Step 3: Test if the module works](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-3-test-if-the-module-works)**
 
 
-- **[How to use the module step-by-step](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#how-to-use-the-module-step-by-step)**
+- **[How to use the module step-by-step](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#how-to-use-the-module-step-by-step)**
 
-  - **[Step 1: Initial Setup](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-1)**
+  - **[Step 1: Initial Setup](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-1)**
     
-  - **[Step 2: Adding repos and reboot](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-2)**
+  - **[Step 2: Adding repos and reboot](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-2)**
     
-  - **[Step 3: Generating and importing key](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-3)**
+  - **[Step 3: Generating and importing key](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-3)**
     
-  - **[Step 4: Installing Nvidia drivers](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-4)**
+  - **[Step 4: Installing Nvidia drivers](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-4)**
     
-  - **[Step 5: Check that the built modules run kernel & boot image status](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-5)**
+  - **[Step 5: Check that the built modules run kernel & boot image status](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-5)**
     
-  - **[(OPTIONAL) Step 6: Install user-experience enhancing programs](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#step-6)**
+  - **[(OPTIONAL) Step 6: Install user-experience enhancing programs](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#step-6)**
 
-- **[Quick summary to what the module actually does](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#quick-summary-to-what-the-module-actually-does)**
+- **[Quick summary to what the module actually does](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#quick-summary-to-what-the-module-actually-does)**
 
-- **[Why Fedora 40 and not Nobara](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#why-fedora-40-and-not-nobara)**
+- **[Why Fedora 40 and not Nobara](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#why-fedora-40-and-not-nobara)**
 
-- **[Testing the module](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/blob/main/h7.md#testing-the-module)**
+- **[Testing the module](https://github.com/KebabGarva/salt-nvidia-securebootblob/main/h7.md#testing-the-module)**
 
 This is a module that is heavily inspired by roworu's guide to install Nvidia drivers that work with SecureBoot on. If you want to star this module, please show some love for them by [starring their guide](https://github.com/roworu/nvidia-fedora-secureboot)!
 
@@ -86,7 +86,7 @@ sudo salt-call --local -l info state.apply test
 ```
 This is what should happen if you've followed :
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/e44da40d-db81-41d9-b4d4-7b74246c25c8)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/e44da40d-db81-41d9-b4d4-7b74246c25c8)
 
 ## How to use the module step-by-step
 
@@ -109,7 +109,7 @@ sudo mokutil --delete /etc/pki/akmods/certs/public_key.der
 ```
 If you have no keys, it will look like this:
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/29b20d08-d9b3-4243-8aed-f641a8cd3482)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/29b20d08-d9b3-4243-8aed-f641a8cd3482)
 
 
 If you don't have any keys, good!! If you didn't even have nvidia packages installed before, even better!! But because we want to be 120% sure, let's reboot:
@@ -143,7 +143,7 @@ If it seems like it takes forever, press `ctrl+c` and try the command again.
 
 This is what it should look like.
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/3ec8e514-360a-4cb4-af42-552dcb02c04a)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/3ec8e514-360a-4cb4-af42-552dcb02c04a)
 
 
 After you've successfully run the command, reboot the system again.
@@ -203,7 +203,7 @@ sudo dnf -y install xorg-x11-drv-nvidia-cuda
 
 It's good if it prints something like this:
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/cb2853ce-979c-40e4-abfb-95823131bd19)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/cb2853ce-979c-40e4-abfb-95823131bd19)
 
 ```
 modinfo -F version nvidia
@@ -323,49 +323,49 @@ This will save beginners a lot of time and from massive headaches.
 
 This is to make sure that the module works following my instructions. I started from Fresh install of Fedora 40. I made a seperate partition to test my modules natively to make it 100% clear that this works. This is a screenshot as a proof that I started from a fresh install of Fedora 40.
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/95dc50b8-4490-443a-a65f-56a6c2c13813)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/95dc50b8-4490-443a-a65f-56a6c2c13813)
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/22f31b10-5c33-40f6-aa94-2cea8779c7bf)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/22f31b10-5c33-40f6-aa94-2cea8779c7bf)
 
 ### Installing salt-minion and states
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/abd12774-d849-40a7-a08d-2dd44093f121)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/abd12774-d849-40a7-a08d-2dd44093f121)
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/3846065c-af3e-4e9f-9b2e-c6b8a4ee20b2)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/3846065c-af3e-4e9f-9b2e-c6b8a4ee20b2)
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/41eb2985-163c-4eae-8e41-f8e889bb7ec4)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/41eb2985-163c-4eae-8e41-f8e889bb7ec4)
 
 
 ### Step 1
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/ecb6484a-765d-4d54-8875-425d0df2178b)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/ecb6484a-765d-4d54-8875-425d0df2178b)
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/ffa9998b-9185-4535-abee-f3981590f936)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/ffa9998b-9185-4535-abee-f3981590f936)
 
 ### Step 2
 
 At this point I had to make some changes to the states, because there was a typo. If you run these commands, it will 100% work.
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/da28bc5c-37f5-4f86-ade8-52f739f80980)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/da28bc5c-37f5-4f86-ade8-52f739f80980)
 
 ### Step 3
 
 I forgot to commit to here before rebooting so this is after the reboot. Apologies! 
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/b24969c3-3261-4e8b-816d-6266139922f1)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/b24969c3-3261-4e8b-816d-6266139922f1)
 
 ### Step 4
 
 Yep... A lot of packages :D 
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/e9df02d3-cd9f-4e70-9e3d-627d018153da)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/e9df02d3-cd9f-4e70-9e3d-627d018153da)
 
 Now it's time to wait.
 
 
 ### Step 5
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/dd2793db-9f31-4472-9dec-ec43855b541d)
+![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/dd2793db-9f31-4472-9dec-ec43855b541d)
 
 
 I switched to discrete graphics on my Laptop by smashing F2 on my keyboard. I didn't even have to switch to nouveau manually because it did it by itself!
