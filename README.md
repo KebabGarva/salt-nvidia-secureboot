@@ -86,7 +86,8 @@ sudo salt-call --local -l info state.apply test
 ```
 This is what should happen if you've followed :
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/e44da40d-db81-41d9-b4d4-7b74246c25c8)
+![image](https://github.com/user-attachments/assets/254a7000-ebef-4bc1-93ab-97bca0efaf9f)
+
 
 ## How to use the module step-by-step
 
@@ -109,7 +110,8 @@ sudo mokutil --delete /etc/pki/akmods/certs/public_key.der
 ```
 If you have no keys, it will look like this:
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/29b20d08-d9b3-4243-8aed-f641a8cd3482)
+![image](https://github.com/user-attachments/assets/414a770b-e85b-4de6-8a07-d81936e9a713)
+
 
 
 If you don't have any keys, good!! If you didn't even have nvidia packages installed before, even better!! But because we want to be 120% sure, let's reboot:
@@ -143,7 +145,8 @@ If it seems like it takes forever, press `ctrl+c` and try the command again.
 
 This is what it should look like.
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/3ec8e514-360a-4cb4-af42-552dcb02c04a)
+![image](https://github.com/user-attachments/assets/89f6c336-2310-41d4-9663-c6764cf2d6b6)
+
 
 
 After you've successfully run the command, reboot the system again.
@@ -203,7 +206,8 @@ sudo dnf -y install xorg-x11-drv-nvidia-cuda
 
 It's good if it prints something like this:
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/cb2853ce-979c-40e4-abfb-95823131bd19)
+![image](https://github.com/user-attachments/assets/436b26d6-d5c8-4bee-8f09-33c17e9e7db3)
+
 
 ```
 modinfo -F version nvidia
@@ -323,49 +327,58 @@ This will save beginners a lot of time and from massive headaches.
 
 This is to make sure that the module works following my instructions. I started from Fresh install of Fedora 40. I made a seperate partition to test my modules natively to make it 100% clear that this works. This is a screenshot as a proof that I started from a fresh install of Fedora 40.
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/95dc50b8-4490-443a-a65f-56a6c2c13813)
+![image](https://github.com/user-attachments/assets/7358cd17-b8ae-400e-8ef4-bd808f41666d)
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/22f31b10-5c33-40f6-aa94-2cea8779c7bf)
+![image](https://github.com/user-attachments/assets/cdcb7fda-a39e-404a-975b-e5b42045c9b3)
+
 
 ### Installing salt-minion and states
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/abd12774-d849-40a7-a08d-2dd44093f121)
+![image](https://github.com/user-attachments/assets/099de919-3cfd-4178-8822-0df1d200ccfd)
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/3846065c-af3e-4e9f-9b2e-c6b8a4ee20b2)
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/41eb2985-163c-4eae-8e41-f8e889bb7ec4)
+![image](https://github.com/user-attachments/assets/635d2595-504e-48a4-9b53-7574125636be)
+
+
+![image](https://github.com/user-attachments/assets/f454c864-a503-4d45-836a-75509a410975)
+
 
 
 ### Step 1
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/ecb6484a-765d-4d54-8875-425d0df2178b)
+![image](https://github.com/user-attachments/assets/38b00b97-58ed-4a52-bb3a-b19f83f07862)
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/ffa9998b-9185-4535-abee-f3981590f936)
+
+![image](https://github.com/user-attachments/assets/1c166d80-09e6-4315-b925-ea453b417e7a)
+
 
 ### Step 2
 
 At this point I had to make some changes to the states, because there was a typo. If you run these commands, it will 100% work.
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/da28bc5c-37f5-4f86-ade8-52f739f80980)
+![image](https://github.com/user-attachments/assets/a2b822b5-2c01-44db-b956-0edc6b7f04b3)
+
 
 ### Step 3
 
 I forgot to commit to here before rebooting so this is after the reboot. Apologies! 
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/b24969c3-3261-4e8b-816d-6266139922f1)
+![image](https://github.com/user-attachments/assets/b45324b3-426e-41a2-aa97-7f83f8c904e8)
+
 
 ### Step 4
 
 Yep... A lot of packages :D 
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/e9df02d3-cd9f-4e70-9e3d-627d018153da)
+![image](https://github.com/user-attachments/assets/09143bc4-81dc-42b7-a80b-3209e7e509ec)
+
 
 Now it's time to wait.
 
 
 ### Step 5
 
-![image](https://github.com/KebabGarva/salt-nvidia-securebootassets/89390996/dd2793db-9f31-4472-9dec-ec43855b541d)
+![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/e44da40d-db81-41d9-b4d4-7b74246c25c8)
 
 
 I switched to discrete graphics on my Laptop by smashing F2 on my keyboard. I didn't even have to switch to nouveau manually because it did it by itself!
