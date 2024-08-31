@@ -382,7 +382,7 @@ Now it's time to wait.
 
 ### Step 5
 
-![image](https://github.com/KebabGarva/Linux-palvelinten-hallinta-bgu248/assets/89390996/e44da40d-db81-41d9-b4d4-7b74246c25c8)
+![image](https://github.com/user-attachments/assets/97d9bc7f-7017-4e6d-8328-93dfc0d6734a)
 
 
 I switched to discrete graphics on my Laptop by smashing F2 on my keyboard. I didn't even have to switch to nouveau manually because it did it by itself!
