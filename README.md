@@ -303,8 +303,6 @@ This is to explain to my lecturer and peer students how the module works in a nu
 - Run akmods and dracut by force
 - Reboot
 
-Remember to ***CHOOSE GNOME ON XORG*** in the lock screen settings that is located in the ***right-bottom corner***.
-
 ## Why Fedora 40 and not Nobara.
 
 ### TL;DR
